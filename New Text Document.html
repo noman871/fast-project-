@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+.contact-links button{
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 10px;
+    padding: 5px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+ 
+}
+.contact-links button:hover{
+    background-color: rgb(167, 163, 163);
+
+}
+.grid-conteiner{
+}
+
+.youtube{
+    color: red;
+}
+.grid-youtube{
+    grid-column: 1 / span 2;
+}
+.facebook{
+    color: #2f5896;
+}
+.grid-facebook{
+    grid-column: 3 / span 2;
+}
+.telegram{
+    color: #388f96;
+}
+.grid-telegram{
+    grid-column: 5 / span 2;
+}
+.phone{
+    color: rgb(23, 101, 133);
+}
+.grid-phone{
+    grid-column: 1 / span 3;
+}
+.whatsapp{
+    color: rgb(56, 168, 56);
+}
+.grid-whatsapp{
+    grid-column: 3 / span 3;
+}
+
+</style>
+</head>
+<body>
+  <div class="contact-links">
+<div class="grid-conteiner"></div>
+  <div class="grid-youtube"><button class="youtube" onclick="window.open('https://www.youtube.com/@Headexpertff-g3s')"><i class="fa-brands fa-youtube"></i></button></div>
+  <div class="grid-facebook"><button class="facebook" onclick="window.open('https://www.facebook.com/profile.php?id=100027583749879')"><i class="fa-brands fa-facebook-f"></i></button></div>
+  <div class="grid-telegram"><button class="telegram" onclick="window.open('https://web.telegram.org/a/#+880 16 138 21244')"><i class="fa-brands fa-telegram"></i></button></div>
+  <div class="grid-phone"><button class="phone" onclick="window.open('')"><i class="fa-solid fa-phone"></i></button></div>
+  <div class="grid-whatsapp"><button class="whatsapp" onclick="window.open('https://www.whatsapp.com/')"><i class="fa-brands fa-whatsapp"></i></button></div>
+</div>
+</div>
+</body>
+</html>
